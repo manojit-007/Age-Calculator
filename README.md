@@ -14,6 +14,10 @@ This is a simple age calculator web application. It calculates the age of a pers
 - CSS
 - JavaScript
 
+## Dependencies
+
+- [Google Font](https://fonts.google.com/specimen/Roboto) - Used for the fonts.
+
 # JS Function - toISOString() 
 The toISOString() method of Date instances returns a string representing this date in the date time string format,
 
@@ -24,7 +28,10 @@ The toISOString() method of Date instances returns a string representing this da
 4. Your age will be displayed in the "Your Age" section.
 
 ## Preview
-[Include a screenshot or gif of your application here]
+![Calendar](/Preview.png)
+
+## Demo 
+[Preview](https://manojit-007.github.io/Age-Calculator/)
 
 ## Author
 [manojit-007]
