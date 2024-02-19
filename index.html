@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex flex-col">
+        <div class="input flex flex-col">
+            <label for="birth-date">Your Date of Birth:</label>
+            <input type="date" name="dateOfBirth" id="birth-date">
+        </div>
+        <div class="input flex flex-col">
+            <label for="target-date">Date to Calculate Age:</label>
+            <input type="date" name="targetDate" id="target-date">
+        </div>
+        <span class="text">Your Age</span>
+        <div class="flex display">
+            <div id="year">00 Years</div>
+            <div id="month">00 Months</div>
+            <div id="day">00 Days</div>
+        </div>
+        <div class="error">
+            Welcome time traveler
+        </div>
+        <button class="btn">Calculate Age</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
